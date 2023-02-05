@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#container {
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 100vh;
+}
+
+#red,
+#white,
+#blue {
+	width: calc(100vw / 3);
+}
+
+#red {
+	background-color: red;
+}
+
+#white {
+	background-color: white;
+}
+
+#blue {
+	background-color: blue;
+}

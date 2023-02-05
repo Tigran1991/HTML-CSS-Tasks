@@ -1,0 +1,55 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	width: 40vw;
+	border: 1px solid #333;
+	padding: 0 20px 20px 20px;
+}
+
+.description {
+	margin: 6px 0 0 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+h1 {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	padding-inline-start: 15px;
+	height: 80%;
+}
+
+ul > li {
+	display: flex;
+	margin: 10px 10px;
+}
+
+label {
+	display: block;
+	width: 103px;
+	text-align: right;
+}
+
+.requirements {
+	font-size: 13px;
+	text-align: center;
+	margin: 0;
+}
+
+button {
+	width: 100px;
+	margin: 10px auto 0px;
+}

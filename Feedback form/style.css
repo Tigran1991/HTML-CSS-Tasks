@@ -1,0 +1,27 @@
+#mainList > li:first-of-type {
+	list-style-type: none;
+}
+
+#formList {
+	list-style-type: disc;
+}
+
+.innerList {
+	list-style-type: disc;
+}
+
+#bioPhoto {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style-type: disc;
+}
+
+#bioPhoto > textarea {
+	margin: 0 2px 0 2px;
+}
+
+button {
+	border: 1px solid #333;
+	border-radius: 10px;
+}

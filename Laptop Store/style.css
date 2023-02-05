@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+#container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	width: 100vw;
+	height: 10vh;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+}
+
+#header-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 80vw;
+	height: 15vh;
+	background-color: #fff;
+}
+
+.laptopStore {
+	width: 300px;
+	height: 15vh;
+	background: url("image/laptop-store.jpg") center / contain no-repeat;
+}
+
+nav {
+	width: 20vw;
+	height: 15vh;
+}
+
+nav > ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 20vw;
+	height: 15vh;
+	list-style-type: none;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.nav-link {
+	color: #333;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 90vh;
+	background-image: url("image/notebook.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1,
+p {
+	font-family: "Noto Sans", sans-serif;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+p {
+	font-size: 14px;
+}
+
+button {
+	width: 150px;
+	padding: 15px;
+	font-family: "Noto Sans", sans-serif;
+	background-color: #fff;
+	color: #333;
+	border: none;
+	cursor: pointer;
+}

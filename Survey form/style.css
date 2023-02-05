@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	background-color: #a9d7d1;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 10vh;
+}
+
+h1 {
+	text-align: center;
+}
+
+#formContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90vw;
+	height: 90vh;
+	margin: 0 auto;
+	background-color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+p {
+	margin: 50px;
+}
+
+form {
+	width: 80%;
+}
+
+#main-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	list-style-type: none;
+	height: 70vh;
+}
+
+#name,
+#email,
+#age {
+	width: 300px;
+	padding: 6px;
+	outline: none;
+	font-size: 14px;
+}
+
+label {
+	display: inline-block;
+	width: 50%;
+	font-size: 20px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+select {
+	width: 140px;
+	padding: 10px;
+	background-color: rgb(231, 224, 224);
+}
+
+#advise {
+	display: flex;
+	flex-direction: row;
+}
+
+#advise-list {
+	list-style-type: none;
+	width: 200px;
+}
+
+.adviseListAnswers {
+	width: fit-content;
+	text-align: left;
+}
+
+#improve {
+	display: flex;
+	flex-direction: row;
+}
+
+#improve-list {
+	list-style-type: none;
+	width: 300px;
+}
+
+.todo {
+	font-size: 20px;
+	padding-top: 10px;
+}

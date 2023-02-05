@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Survey form</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<h1>Survey Form</h1>
+			</div>
+			<div id="formContainer">
+				<p>Let us know how we can improve freeCodeCamp</p>
+				<form action="#" method="POST">
+					<ul id="main-list">
+						<li>
+							<label for="name">* Name:</label>
+							<input
+								type="text"
+								name="user_name"
+								id="name"
+								placeholder="Enter your name"
+							/>
+						</li>
+						<li>
+							<label for="email">* Email:</label>
+							<input
+								type="mail"
+								name="user_email"
+								id="email"
+								placeholder="Enter your Email"
+							/>
+						</li>
+						<li>
+							<label for="age">Age:</label>
+							<input type="number" name="user_age" id="age" placeholder="Age" />
+						</li>
+						<li>
+							<label for="age"
+								>Which option best describes your current role?</label
+							>
+							<select name="currentRole">
+								<option value="">student</option>
+							</select>
+						</li>
+						<li id="advise">
+							<label for="age"
+								>*How likely is that you would recommend freeCodeCamp to a
+								friend?
+							</label>
+							<ul id="advise-list">
+								<li>
+									<input type="radio" name="definitely" id="definitely" />
+									<label for="definitely" class="adviseListAnswers"
+										>Definitely</label
+									>
+								</li>
+								<li>
+									<input type="radio" name="maybe" id="maybe" />
+									<label for="maybe" class="adviseListAnswers">Maybe</label>
+								</li>
+								<li>
+									<input type="radio" name="not sure" id="not-sure" />
+									<label for="not-sure" class="adviseListAnswers"
+										>Not sure</label
+									>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<label for="age">What do you like most in FCC:</label>
+							<select name="">
+								<option value="">Select an option</option>
+							</select>
+						</li>
+						<li id="improve">
+							<label for="age"
+								>Things that should be improved in the future<br />(Check all
+								type applied)</label
+							>
+							<ul id="improve-list">
+								<li>
+									<input type="checkbox" name="definitely" id="definitely" />
+									<label for="definitely" class="adviseListAnswers"
+										>Front-end Projects</label
+									>
+								</li>
+								<li>
+									<input type="checkbox" name="maybe" id="maybe" />
+									<label for="maybe" class="adviseListAnswers"
+										>Back-end Projects</label
+									>
+								</li>
+								<li>
+									<input type="checkbox" name="not sure" id="not-sure" />
+									<label for="not-sure" class="adviseListAnswers"
+										>Data Visualization</label
+									>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
